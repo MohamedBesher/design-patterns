@@ -5,20 +5,12 @@ namespace ChainOfResposibility
 
     public class ConcreteHandler : BaseHandler
     {
-        public override void HandleRequest(string handlerSelector)
+        public override void HandleRequest()
         {
-            if (handlerSelector == "1")
-            {
+
                 Console.WriteLine("concrete 1 class Handler ");
-            }
-            else
-            {
-                base.HandleRequest(handlerSelector);
-            }
+
+            base.HandleRequest();
         }
     }
-
-
-
-
 }

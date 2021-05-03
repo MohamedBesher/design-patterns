@@ -5,7 +5,7 @@ namespace ChainOfResposibility
 
     public interface IHandler
     {
-        void HandleRequest(string handlerSelector);
+        void HandleRequest();
     }
 
 

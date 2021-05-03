@@ -9,13 +9,12 @@ namespace ChainOfResposibility
         {
             next = handler;
         }
-        public virtual void HandleRequest(string handlerSelector)
+        public virtual void HandleRequest()
         {
             if (next != null)
             {
-                next.HandleRequest(handlerSelector);
+                next.HandleRequest();
             }
-            Console.WriteLine("Base class Handler");
         }
     }
 
