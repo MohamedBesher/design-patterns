@@ -2,5 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/behavioral-patterns/ChainOfResposibility/bin
-/behavioral-patterns/ChainOfResposibility/obj
+bin
+obj

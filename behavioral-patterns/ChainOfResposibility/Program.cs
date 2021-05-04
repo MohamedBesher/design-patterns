@@ -6,6 +6,7 @@ namespace ChainOfResposibility
     {
         static void Main(string[] args)
         {
+            #region chainOfResposibility
             var concrete1 = new ConcreteHandler();
             var concrete2 = new Concrete2Handler();
 
@@ -17,8 +18,11 @@ namespace ChainOfResposibility
             concrete1.HandleRequest();
             //concrete1.HandleRequest("2");
 
+            #endregion
+
+
             Console.ReadLine();
-        
+
         }
     }
 
