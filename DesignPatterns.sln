@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChainOfResposibility", "beh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "behavioral-patterns\TemplateMethod\TemplateMethod.csproj", "{D5D7D485-6131-45F4-98C8-6ECE2A2A89D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "behavioral-patterns\State\State.csproj", "{4F76B5CA-5357-4FC3-8FB1-B50259444F95}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{D5D7D485-6131-45F4-98C8-6ECE2A2A89D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5D7D485-6131-45F4-98C8-6ECE2A2A89D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5D7D485-6131-45F4-98C8-6ECE2A2A89D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F76B5CA-5357-4FC3-8FB1-B50259444F95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F76B5CA-5357-4FC3-8FB1-B50259444F95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F76B5CA-5357-4FC3-8FB1-B50259444F95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F76B5CA-5357-4FC3-8FB1-B50259444F95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C684BD51-8F41-45D2-9EF3-8781F1626BAF} = {A70403F3-4ACF-4F49-9FD0-024237357CFA}
 		{D5D7D485-6131-45F4-98C8-6ECE2A2A89D1} = {A70403F3-4ACF-4F49-9FD0-024237357CFA}
+		{4F76B5CA-5357-4FC3-8FB1-B50259444F95} = {A70403F3-4ACF-4F49-9FD0-024237357CFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D71FE105-D191-48E1-B57B-E3A4A44A7D66}
